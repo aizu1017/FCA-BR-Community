@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FCA BR Community</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Background effects -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow"></div>
+  <div class="particles" aria-hidden="true"></div>
+
+  <!-- Top bar -->
+  <header class="hero">
+    <div class="hero-inner">
+      <!-- Put fca-logo.png in the same folder -->
+      <img src="fca-logo.png" alt="FCA BR" class="logo" />
+
+      <h1 class="title">FCA BR Community</h1>
+      <p class="subtitle">Helping players. Supporting the server.</p>
+
+      <div class="pill-row">
+        <span class="pill">
+          <span class="dot dot-green"></span>
+          Community Support
+        </span>
+        <span class="pill">
+          <span class="dot dot-yellow"></span>
+          Tips + Fixes + Guides
+        </span>
+      </div>
+
+      <nav class="nav">
+        <a href="#help">Game Help</a>
+        <a href="#recharge">Recharge Cash / NX</a>
+        <a href="#account">Create Account</a>
+        <a href="#eu">EU / Outside BR</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="hero-actions">
+        <a class="button primary" href="https://developers.cloudflare.com/warp-client/get-started/" target="_blank" rel="noopener">
+          Download Cloudflare WARP
+        </a>
+
+        <a class="button" href="https://fcabr.net/" target="_blank" rel="noopener">
+          Official Site
+        </a>
+
+        <a class="button discord" href="https://discord.gg/QwvSPXPU" target="_blank" rel="noopener">
+          Join Discord
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- GAME HELP -->
+    <section id="help" class="section card">
+      <div class="section-head">
+        <h2>Game Help</h2>
+        <p>If your launcher gets stuck on <strong>"Check Version"</strong> or won’t open:</p>
+      </div>
+
+      <div class="split">
+        <div class="panel">
+          <h3>Quick Fix Steps</h3>
+          <ol>
+            <li><strong>Run as Administrator</strong> (right-click launcher → Run as admin)</li>
+            <li>If it still fails, use <strong>Cloudflare WARP</strong> (temporary fix)</li>
+            <li>After it works, try opening again <strong>without WARP</strong></li>
+          </ol>
+
+          <div class="btn-row">
+            <a class="button primary" href="https://developers.cloudflare.com/warp-client/get-started/" target="_blank" rel="noopener">
+              Download Cloudflare WARP
+            </a>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Extra Checks</h3>
+          <ul>
+            <li>Windows Defender / Antivirus may block the launcher → allow it</li>
+            <li>Restart PC + router once (simple but works)</li>
+            <li>If nothing helps → open a <strong>Support Ticket</strong> on the official site</li>
+          </ul>
+
+          <div class="copy-box">
+            <div class="copy-title">Official Site</div>
+            <div class="copy-row">
+              <code id="siteLink">https://fcabr.net/</code>
+              <button class="mini-btn" data-copy="#siteLink">Copy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RECHARGE -->
+    <section id="recharge" class="section card">
+      <div class="section-head">
+        <h2>How to Recharge Cash / NX</h2>
+        <p>Works outside Brazil too (credit card option).</p>
+      </div>
+
+      <div class="panel">
+        <ol>
+          <li>Go to <a href="https://fcabr.net/" target="_blank" rel="noopener">https://fcabr.net/</a></li>
+          <li>Log in to your account</li>
+          <li>Click the <strong>☰ menu</strong> (top right)</li>
+          <li>Select <strong>Donations</strong></li>
+          <li>Choose your payment method (credit card works outside Brazil)</li>
+          <li>Pick the amount you want and complete the payment</li>
+        </ol>
+
+        <div class="btn-row">
+          <a class="button primary" href="https://fcabr.net/" target="_blank" rel="noopener">Go to Official Site</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACCOUNT -->
+    <section id="account" class="section card">
+      <div class="section-head">
+        <h2>Create Account</h2>
+        <p>Quick guide (don’t share passwords with anyone).</p>
+      </div>
+
+      <div class="split">
+        <div class="panel">
+          <h3>Steps</h3>
+          <ol>
+            <li>Open the official site: <a href="https://fcabr.net/" target="_blank" rel="noopener">fcabr.net</a></li>
+            <li>Go to <strong>Support / Atendimento</strong> (Discord SOS / support panel)</li>
+            <li>Click <strong>Criar conta</strong></li>
+            <li>Fill: <strong>Login</strong>, <strong>Password</strong>, <strong>Email</strong></li>
+            <li>Press <strong>Submit</strong></li>
+          </ol>
+        </div>
+
+        <div class="panel">
+          <h3>Pro Tips</h3>
+          <ul>
+            <li>Use a strong password (12+ chars)</li>
+            <li>Save your login in a safe place</li>
+            <li>If you can’t create → open a ticket (Support Ticket)</li>
+          </ul>
+
+          <div class="copy-box">
+            <div class="copy-title">Discord Invite</div>
+            <div class="copy-row">
+              <code id="discordLink">https://discord.gg/QwvSPXPU</code>
+              <button class="mini-btn" data-copy="#discordLink">Copy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EU / OUTSIDE BR -->
+    <section id="eu" class="section card">
+      <div class="section-head">
+        <h2>EU / Outside Brazil Support</h2>
+        <p>If you’re in EU/US and you lag or can’t connect sometimes:</p>
+      </div>
+
+      <div class="panel">
+        <ul>
+          <li>Try <strong>WARP ON</strong> if launcher fails / “Check Version” appears</li>
+          <li>After login works, try playing <strong>without WARP</strong> (better ping sometimes)</li>
+          <li>Use <strong>Ethernet</strong> if possible</li>
+          <li>Close downloads + streaming while updating</li>
+        </ul>
+
+        <div class="status">
+          <div class="status-left">
+            <span class="dot dot-green"></span>
+            <strong>Status:</strong> Tips updated
+          </div>
+          <div class="status-right">
+            <button class="mini-btn" id="refreshTip">New random tip</button>
+          </div>
+        </div>
+
+        <div class="tip" id="tipBox">
+          Tip: If it works with WARP once, try reopening later without it.
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section card">
+      <div class="section-head">
+        <h2>FAQ</h2>
+        <p>Click to expand.</p>
+      </div>
+
+      <div class="faq">
+        <button class="faq-q" aria-expanded="false">
+          My launcher is stuck on “Check Version”. What do I do?
+          <span class="chev">▾</span>
+        </button>
+        <div class="faq-a">
+          Run launcher as Administrator. If it still fails, use Cloudflare WARP temporarily.
+          After it works, try opening again later without WARP.
+        </div>
+
+        <button class="faq-q" aria-expanded="false">
+          Can I recharge cash outside Brazil?
+          <span class="chev">▾</span>
+        </button>
+        <div class="faq-a">
+          Yes. Go to the official site → Donations → choose payment method. Credit card works outside Brazil.
+        </div>
+
+        <button class="faq-q" aria-expanded="false">
+          Where do I get help in Portuguese?
+          <span class="chev">▾</span>
+        </button>
+        <div class="faq-a">
+          Use the PT / Português channel in Discord. People there can help faster in Portuguese.
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>Created by <strong>Aizu | 1017</strong></span>
+      <span class="sep">•</span>
+      <a href="https://fcabr.net/" target="_blank" rel="noopener">fcabr.net</a>
+      <span class="sep">•</span>
+      <a href="https://discord.gg/QwvSPXPU" target="_blank" rel="noopener">Discord</a>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
